@@ -1,6 +1,7 @@
 import React from "react";
 
-function Article({ title, preview, date="May 11th 2026"}) {
+function Article({ title, preview, date}) {
+    const displayDate = date || "January 1, 1970";
     return (
         <article>
             <h3>{title}</h3>
