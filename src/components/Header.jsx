@@ -1,7 +1,9 @@
-function Header() {
+import React from "react";
+
+function Header({name}) {
     return (
         <header>
-            <h1>{Name}</h1>
+            <h1>{name}</h1>
         </header>
     );
 }
